@@ -164,8 +164,7 @@ _**Title:**_  Search for unmarketable products
 
 _**Pre-requirements:**_
 
-1.  Opened a main page:  [https://www.lcwaikiki.by/ru-RU/BY](hhttps://www.lcwaikiki.by/ru-RU/BY)
-
+1.  Opened main page:  [https://www.lcwaikiki.by/ru-RU/BY](https://www.lcwaikiki.by/ru-RU/BY)
 
 | Step | Expected result |
 |--|--|
@@ -186,7 +185,7 @@ _**Title:**_  English search
 
 _**Pre-requirements:**_
 
-1.  Opened a main page:  [https://www.lcwaikiki.by/ru-RU/BY](hhttps://www.lcwaikiki.by/ru-RU/BY)
+1.  Opened main page:  [https://www.lcwaikiki.by/ru-RU/BY](https://www.lcwaikiki.by/ru-RU/BY)
 
 
 | Step | Expected result |
@@ -208,7 +207,7 @@ _**Title:**_  Searching for a thing written in upper case
 
 _**Pre-requirements:**_
 
-1.  Opened a main page:  [https://www.lcwaikiki.by/ru-RU/BY](hhttps://www.lcwaikiki.by/ru-RU/BY)
+1.  Opened main page:  [https://www.lcwaikiki.by/ru-RU/BY](https://www.lcwaikiki.by/ru-RU/BY)
 
 
 | Step | Expected result |
