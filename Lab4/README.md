@@ -17,9 +17,7 @@ _**Pre-requirements:**_
 | Step | Expected result |
 |--|--|
 |Click on the heart icon located on the selected garment|The heart icon turned blue|
-|Сlick on the heart icon in the menu field|The page with the favorites opens, where the selected clothes are located [https://www.lcwaikiki.by/ru-RU/BY/myfavoritelist](https://www.lcwaikiki.by/ru-RU/BY/myfavoritelist)|
-
-!!!When adding a second item to favorites, only one item is displayed on the favorites page 
+|Сlick on the heart icon in the menu field|The page with the favorites opens, where the selected clothes are located [https://www.lcwaikiki.by/ru-RU/BY/myfavoritelist](https://www.lcwaikiki.by/ru-RU/BY/myfavoritelist)| 
 
 **Environment:**
 
@@ -76,7 +74,7 @@ _**Title:**_  Сlothing filtering by discount
 
 _**Pre-requirements:**_
 
-1.  Opened the women's clothing page:  [https://www.lcwaikiki.by/ru-RU/BY/product-group/men](https://www.lcwaikiki.by/ru-RU/BY/product-group/men)
+1.  Opened the men's clothing page:  [https://www.lcwaikiki.by/ru-RU/BY/product-group/men](https://www.lcwaikiki.by/ru-RU/BY/product-group/men)
 
 
 | Step | Expected result |
@@ -97,7 +95,7 @@ _**Title:**_  Filtering clothes by increasing price
 
 _**Pre-requirements:**_
 
-1.  Opened the women's clothing page:  [https://www.lcwaikiki.by/ru-RU/BY/product-group/men](https://www.lcwaikiki.by/ru-RU/BY/product-group/men)
+1.  Opened the men's clothing page:  [https://www.lcwaikiki.by/ru-RU/BY/product-group/men](https://www.lcwaikiki.by/ru-RU/BY/product-group/men)
 
 
 | Step | Expected result |
@@ -119,6 +117,7 @@ _**Title:**_  Adding a date of birth to a profile
 _**Pre-requirements:**_
 
 1.  Opened the personal data page:  [https://www.lcwaikiki.by/ru-RU/BY/membership/personal-information](https://www.lcwaikiki.by/ru-RU/BY/membership/personal-information)
+2. Requires a registered account
 
 
 | Step | Expected result |
@@ -144,6 +143,7 @@ _**Title:**_  Removing things from favorites
 _**Pre-requirements:**_
 
 1.  Opened a favorites page:  [https://www.lcwaikiki.by/ru-RU/BY/myfavoritelist](https://www.lcwaikiki.by/ru-RU/BY/myfavoritelist)
+2. Mandatory availability of products in favorites
 
 
 | Step | Expected result |
@@ -160,7 +160,7 @@ _**Pre-requirements:**_
 
 _**Test ID:**_  8
 
-_**Title:**_  Search for unmarketable objects
+_**Title:**_  Search for unmarketable products
 
 _**Pre-requirements:**_
 
@@ -216,6 +216,27 @@ _**Pre-requirements:**_
 |At the top of the site click on the "Поиск" field|Focused on this field|
 |Enter "БРЮКИ" in "Поиск" field|In the "Поиск" field the entered text is displayed|
 |Click "Поиск" button to the right of "Поиск" field|Opened the page with the results of the search for "БРЮКИ"|
+
+**Environment:**
+
+-   **Operating system:**  Microsoft Windows 10 Pro
+-   **Browser:**  Google Chrome
+
+----------
+
+_**Test ID:**_  11
+
+_**Title:**_  Changing the number of displayed items in a line
+
+_**Pre-requirements:**_
+
+1.  Opened the women's clothing page:  [https://www.lcwaikiki.by/ru-RU/BY/product-group/women](https://www.lcwaikiki.by/ru-RU/BY/product-group/women)
+
+
+| Step | Expected result |
+|--|--|
+|Сlick on the icon with the three rectangles|The line has three images and the size of the pictures has increased |
+|Click the icon with the four rectangles|The line has four images, and the size of the images has decreased|
 
 **Environment:**
 
