@@ -22,6 +22,7 @@ Registration with email and password
 | Click on checkbox in "Я даю свое согласие LC Waikiki и третьим лицам, указанным в Политики..."  | Checkbox Я даю свое согласие LC Waikiki и третьим лицам, указанным в Политики..." should be checked |
 | Click on button "Регистрация"  | You should see next text on the page "Ваша регистрационная запись выполнена." with button "Начать покупки" |
 | Check your email  | There should be message with title "Добро пожаловать на lcwaikiki.by, {Last Name}!"  |
+
 **Environment:**
 
 -  **Operating system:** Microsoft Windows 10 Pro
@@ -41,6 +42,7 @@ T-shirt search
 |At the top of the site click on the "Поиск" field  |Focused on this field |
 |Enter "Майка" in "Поиск" field | In the "Поиск" field the entered text is displayed |
 |Click "Поиск" button to the right of "Поиск" field | Opened the page with the results of the search for "Майка"|
+
 **Environment:**
 
 -  **Operating system:** Microsoft Windows 10 Pro
@@ -61,6 +63,7 @@ Adding t-shirt with size M to the bucket
 |Select size M in the sizes section|Letter M should be selected and highlighted in blue|
 |Click "Добавить в корзину" button under size section| Popup window displayed on the right upper conner of the screen|
 |Click on the icon of Bag in the header section| The shopping cart page opened with chose T-shirt M size in it |
+
 **Environment:**
 
 -  **Operating system:** Microsoft Windows 10 Pro
