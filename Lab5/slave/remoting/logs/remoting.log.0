@@ -1,166 +1,166 @@
-окт. 23, 2022 8:55:33 PM hudson.remoting.jnlp.Main createEngine
+пїЅпїЅпїЅ. 23, 2022 8:55:33 PM hudson.remoting.jnlp.Main createEngine
 INFO: Setting up agent: DESKTOP-UC30CLB
-окт. 23, 2022 8:55:33 PM hudson.remoting.Engine startEngine
+пїЅпїЅпїЅ. 23, 2022 8:55:33 PM hudson.remoting.Engine startEngine
 INFO: Using Remoting version: 3044.vb_940a_a_e4f72e
-окт. 23, 2022 8:55:33 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
+пїЅпїЅпїЅ. 23, 2022 8:55:33 PM org.jenkinsci.remoting.engine.WorkDirManager initializeWorkDir
 INFO: Using C:\univer\Software-testing\Lab5\slave\remoting as a remoting work directory
-окт. 23, 2022 8:55:33 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 8:55:33 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Locating server among [http://localhost:8081/]
-окт. 23, 2022 8:55:33 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+пїЅпїЅпїЅ. 23, 2022 8:55:33 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
 INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
-окт. 23, 2022 8:55:33 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 8:55:33 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Agent discovery successful
   Agent address: localhost
   Agent port:    62084
   Identity:      82:46:42:76:55:65:26:b5:25:63:be:92:af:8b:0a:d1
-окт. 23, 2022 8:55:33 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 8:55:33 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Handshaking
-окт. 23, 2022 8:55:33 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 8:55:33 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Connecting to localhost:62084
-окт. 23, 2022 8:55:33 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 8:55:33 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Trying protocol: JNLP4-connect
-окт. 23, 2022 8:55:33 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+пїЅпїЅпїЅ. 23, 2022 8:55:33 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
 INFO: Waiting for ProtocolStack to start.
-окт. 23, 2022 8:55:33 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 8:55:33 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Remote identity confirmed: 82:46:42:76:55:65:26:b5:25:63:be:92:af:8b:0a:d1
-окт. 23, 2022 8:55:33 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 8:55:33 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Connected
-окт. 23, 2022 9:06:15 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:06:15 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Terminated
-окт. 23, 2022 9:06:26 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+пїЅпїЅпїЅ. 23, 2022 9:06:26 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
 INFO: Controller isn't ready to talk to us on http://localhost:8081/tcpSlaveAgentListener/. Will try again: response code=503
-окт. 23, 2022 9:06:37 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:06:37 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Performing onReconnect operation.
-окт. 23, 2022 9:06:37 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:06:37 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: onReconnect operation completed.
-окт. 23, 2022 9:06:37 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:06:37 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Locating server among [http://localhost:8081/]
-окт. 23, 2022 9:06:37 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+пїЅпїЅпїЅ. 23, 2022 9:06:37 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
 INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
-окт. 23, 2022 9:06:37 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:06:37 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Agent discovery successful
   Agent address: localhost
   Agent port:    55964
   Identity:      82:46:42:76:55:65:26:b5:25:63:be:92:af:8b:0a:d1
-окт. 23, 2022 9:06:37 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:06:37 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Handshaking
-окт. 23, 2022 9:06:37 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:06:37 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Connecting to localhost:55964
-окт. 23, 2022 9:06:37 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:06:37 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Trying protocol: JNLP4-connect
-окт. 23, 2022 9:06:38 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+пїЅпїЅпїЅ. 23, 2022 9:06:38 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
 INFO: Waiting for ProtocolStack to start.
-окт. 23, 2022 9:06:38 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:06:38 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Remote identity confirmed: 82:46:42:76:55:65:26:b5:25:63:be:92:af:8b:0a:d1
-окт. 23, 2022 9:06:38 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:06:38 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Connected
-окт. 23, 2022 9:31:09 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:31:09 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Terminated
-окт. 23, 2022 9:31:20 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
+пїЅпїЅпїЅ. 23, 2022 9:31:20 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver waitForReady
 INFO: Controller isn't ready to talk to us on http://localhost:8081/tcpSlaveAgentListener/. Will try again: response code=503
-окт. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Performing onReconnect operation.
-окт. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: onReconnect operation completed.
-окт. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Locating server among [http://localhost:8081/]
-окт. 23, 2022 9:31:30 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+пїЅпїЅпїЅ. 23, 2022 9:31:30 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
 INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
-окт. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Agent discovery successful
   Agent address: localhost
   Agent port:    49607
   Identity:      82:46:42:76:55:65:26:b5:25:63:be:92:af:8b:0a:d1
-окт. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Handshaking
-окт. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Connecting to localhost:49607
-окт. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Trying protocol: JNLP4-connect
-окт. 23, 2022 9:31:30 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+пїЅпїЅпїЅ. 23, 2022 9:31:30 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
 INFO: Waiting for ProtocolStack to start.
-окт. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Remote identity confirmed: 82:46:42:76:55:65:26:b5:25:63:be:92:af:8b:0a:d1
-окт. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:31:30 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Connected
-окт. 23, 2022 9:35:31 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:35:31 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Terminated
-окт. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Performing onReconnect operation.
-окт. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: onReconnect operation completed.
-окт. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Locating server among [http://localhost:8081/]
-окт. 23, 2022 9:35:42 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+пїЅпїЅпїЅ. 23, 2022 9:35:42 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
 INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
-окт. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Agent discovery successful
   Agent address: localhost
   Agent port:    49705
   Identity:      82:46:42:76:55:65:26:b5:25:63:be:92:af:8b:0a:d1
-окт. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Handshaking
-окт. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Connecting to localhost:49705
-окт. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Trying protocol: JNLP4-connect
-окт. 23, 2022 9:35:42 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+пїЅпїЅпїЅ. 23, 2022 9:35:42 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
 INFO: Waiting for ProtocolStack to start.
-окт. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Remote identity confirmed: 82:46:42:76:55:65:26:b5:25:63:be:92:af:8b:0a:d1
-окт. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:35:42 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Connected
-окт. 23, 2022 9:41:24 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:41:24 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Terminated
-окт. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Performing onReconnect operation.
-окт. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: onReconnect operation completed.
-окт. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Locating server among [http://localhost:8081/]
-окт. 23, 2022 9:41:36 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+пїЅпїЅпїЅ. 23, 2022 9:41:36 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
 INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
-окт. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Agent discovery successful
   Agent address: localhost
   Agent port:    49843
   Identity:      82:46:42:76:55:65:26:b5:25:63:be:92:af:8b:0a:d1
-окт. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Handshaking
-окт. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Connecting to localhost:49843
-окт. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Trying protocol: JNLP4-connect
-окт. 23, 2022 9:41:36 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+пїЅпїЅпїЅ. 23, 2022 9:41:36 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
 INFO: Waiting for ProtocolStack to start.
-окт. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Remote identity confirmed: 82:46:42:76:55:65:26:b5:25:63:be:92:af:8b:0a:d1
-окт. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:41:36 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Connected
-окт. 23, 2022 9:45:18 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:45:18 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Terminated
-окт. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Performing onReconnect operation.
-окт. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: onReconnect operation completed.
-окт. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Locating server among [http://localhost:8081/]
-окт. 23, 2022 9:45:31 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
+пїЅпїЅпїЅ. 23, 2022 9:45:31 PM org.jenkinsci.remoting.engine.JnlpAgentEndpointResolver resolve
 INFO: Remoting server accepts the following protocols: [JNLP4-connect, Ping]
-окт. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Agent discovery successful
   Agent address: localhost
   Agent port:    49949
   Identity:      82:46:42:76:55:65:26:b5:25:63:be:92:af:8b:0a:d1
-окт. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Handshaking
-окт. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Connecting to localhost:49949
-окт. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Trying protocol: JNLP4-connect
-окт. 23, 2022 9:45:31 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
+пїЅпїЅпїЅ. 23, 2022 9:45:31 PM org.jenkinsci.remoting.protocol.impl.BIONetworkLayer$Reader run
 INFO: Waiting for ProtocolStack to start.
-окт. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Remote identity confirmed: 82:46:42:76:55:65:26:b5:25:63:be:92:af:8b:0a:d1
-окт. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
+пїЅпїЅпїЅ. 23, 2022 9:45:31 PM hudson.remoting.jnlp.Main$CuiListener status
 INFO: Connected
