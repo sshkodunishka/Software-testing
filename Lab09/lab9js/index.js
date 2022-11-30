@@ -7,6 +7,6 @@ const { Builder, Browser, By, Key, until } = require('selenium-webdriver');
         await driver.findElement(By.id('search')).sendKeys('Майка', Key.ENTER);
         await driver.wait(until.titleIs('Майка - LC Waikiki'), 2000);
     } finally {
-        await driver.quit();
+       // await driver.quit();
     }
 })();
