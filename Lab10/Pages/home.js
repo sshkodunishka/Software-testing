@@ -11,7 +11,7 @@ class HomePage extends BasePage {
     async enter_search(searchText) {
         var searchField = '[id=search]';
         await this.enterTextByCss(searchField, searchText);
-        await this.enterTextByCss(searchField, Key.RETURN);
+        await this.enterTextByCss(searchField, Key.ENTER);
     }
 }
 module.exports = new HomePage();

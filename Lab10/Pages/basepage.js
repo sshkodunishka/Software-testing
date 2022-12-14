@@ -18,9 +18,19 @@ class BasePage {
     async clickById(id) {
         await driver.findElement(By.id(id)).click();
     }
+    async clickByClass(className) {
+        await driver.findElement(By.className(className)).click();
+    }
     async closeBrowser() {
         await driver.quit();
     }
+    async isTitle(currentUrl){
+        await driver.getCurrentUrl(currentUrl)
+    }
+    async isMyClothes(id) {
+        await driver.findElement(By.id(id));
+    }
+
 }
 
 module.exports = BasePage;
