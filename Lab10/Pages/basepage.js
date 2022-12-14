@@ -9,7 +9,7 @@ class BasePage {
     constructor() {
         global.driver = driver;
     }
-    async go_to_url(theURL) {
+    async goToUrl(theURL) {
         await driver.get(theURL);
     }
     async enterTextByCss(css, searchText) {
@@ -18,17 +18,37 @@ class BasePage {
     async clickById(id) {
         await driver.findElement(By.id(id)).click();
     }
+    async clickByXPath(path) {
+        await driver.findElement(By.xpath(path)).click();
+    }
     async clickByClass(className) {
         await driver.findElement(By.className(className)).click();
     }
     async closeBrowser() {
         await driver.quit();
     }
-    async isTitle(currentUrl){
-        await driver.getCurrentUrl(currentUrl)
+    async getUrl() {
+        return await driver.getCurrentUrl()
     }
-    async isMyClothes(id) {
-        await driver.findElement(By.id(id));
+
+    async getElemById(id) {
+        return await driver.findElement(By.id(id));
+    }
+
+    async getElementsByClass(name) {
+        return await driver.findElements(By.className(name));
+    }
+
+    async getElemByXpath(path) {
+        return await driver.findElement(By.xpath(path));
+    }
+
+    async getTitle() {
+        return await driver.getTitle();
+    }
+
+    async sleep(x) {
+        await driver.sleep(x);
     }
 
 }

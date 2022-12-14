@@ -4,14 +4,17 @@ var BasePage = require('./basepage');
 class WomensApparel extends BasePage {
 
 
-    async enter_url(theURL) {
-        await this.go_to_url(theURL);
+    async enterUrl(theURL) {
+        await this.goToUrl(theURL);
     }
 
-    async addToFavorite() {
-        var searchField = '[id=model_fav_2674708_6047794]';
-        await driver.findElement(By.id(searchField)).click();
+    async addToFavorite(id) {
+        await this.clickByXPath(`//div[@id='${id}']//*[@class='emi-item fav']`)
     }
-    
+
+    async goToFavorites() {
+        await this.clickByClass('header-favorite-icon bndl-like bndl-like-dims')
+    }
+
 }
 module.exports = new WomensApparel();

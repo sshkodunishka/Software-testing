@@ -1,4 +1,5 @@
 const homepage = require('../Pages/womens-apparel');
+const assert = require("assert");
 
 describe('Describe', function () {
     this.timeout(50000);
@@ -10,10 +11,13 @@ describe('Describe', function () {
     it('Adding to favorites', async function () {
         var baseurl = 'https://www.lcwaikiki.by/ru-RU/BY/product-group/women';
         var favoritesUrl = 'https://www.lcwaikiki.by/ru-RU/BY/myfavoritelist'
-        var idFavoritesClothes = 'model_2674708_6047794'
-        await homepage.enter_url(baseurl);
-        await homepage.isTitle(favoritesUrl);
-        await homepage.isMyClothes(idFavoritesClothes);
+        var idFavoritesClothes = 'model_fav_2738436_6017107'
+        await homepage.enterUrl(baseurl);
+        await homepage.addToFavorite(idFavoritesClothes);
+        await homepage.goToFavorites(favoritesUrl);
+        assert.equal(await homepage.getUrl(), favoritesUrl);
+        const clothes = await homepage.getElemById(idFavoritesClothes)
+        assert.notEqual(clothes, null)
     })
 
     afterEach(async function () {
